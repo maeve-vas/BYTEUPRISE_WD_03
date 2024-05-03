@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+.glass-panel {
+    color: #fff;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.674);
+    width: 100%;
+    border-radius: 65px;
+    padding: 32px;
+    backdrop-filter: blur(10px);
+    width: 600px;
+    height: 667px;
+}
+
+.glass-button {
+    display: inline-block;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.glass-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.stopwatch {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+.display {
+    margin-bottom: 20px;
+    font-size: 165px; /* Adjust the margin-bottom as needed */
+}
+.glass-button{
+    display: inline-block; /* Change display property to inline-block */
+    margin-right: 10px; /* Adjust the margin-right as needed */
+    padding: 20px 40px; /* Adjust the padding to make buttons larger */
+    font-size: 16px;
+}
+#lapList{
+    font-size: 26px;
+
+}
+
